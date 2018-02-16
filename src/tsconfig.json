@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "importHelpers": true,
+    "isolatedModules": false,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "../generated",
+    "lib": ["es2015", "es5", "dom"]
+  }
+}
