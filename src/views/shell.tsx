@@ -13,7 +13,7 @@ import "./shell.scss";
 declare var FastClick: { attach(element: HTMLElement): void };
 
 interface IProps extends IRouteComponentProps {
-  logout: () => void;
+  logout: () => any;
 }
 
 export class ShellComponent extends React.Component<IProps, {}> {
@@ -50,4 +50,4 @@ export const Shell = compose(withRouter, connect(
   (dispatch: Redux.Dispatch<State>) => ({
     logout: () => dispatch(LoginDux.actions.logout({}))
   })
-))(ShellComponent)
+)(ShellComponent))
