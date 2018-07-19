@@ -1,9 +1,7 @@
-// import "./theme/theme.scss";
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+import { Content } from './views/content';
 
-// import * as React from "react";
-// import * as ReactDOM from "react-dom";
-// import { Shell } from './views/shell';
-
-// ReactDOM.render((
-//   <Shell />
-// ), document.getElementById('host'));
+ReactDOM.render((
+  <Content />
+), document.getElementById('host'));
