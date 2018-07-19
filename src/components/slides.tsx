@@ -15,12 +15,16 @@ export class Slides extends React.Component {
 }
 
 export interface SlideProps {
-  heading?: string
+  h1?: string
+  h2?: string
+  h3?: string
 }
 
-export const Slide: React.SFC<SlideProps> = ({ heading, children }) => (
+export const Slide: React.SFC<SlideProps> = ({ h1, h2, h3, children }) => (
   <section>
-    {heading && <h2>{heading}</h2>}
+    {h1 && <h1>{h1}</h1>}
+    {h2 && <h2>{h2}</h2>}
+    {h3 && <h3>{h3}</h3>}
     {children}
   </section>
 )
