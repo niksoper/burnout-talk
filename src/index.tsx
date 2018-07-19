@@ -1,9 +1,9 @@
-import "./theme/theme.scss";
+// import "./theme/theme.scss";
 
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-import { Shell } from './views/shell';
+// import * as React from "react";
+// import * as ReactDOM from "react-dom";
+// import { Shell } from './views/shell';
 
-ReactDOM.render((
-  <Shell />
-), document.getElementById('host'));
+// ReactDOM.render((
+//   <Shell />
+// ), document.getElementById('host'));

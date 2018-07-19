@@ -8,7 +8,7 @@
     "build-prod": "yarn run build --env.production=true",
     "watch": "webpack --config config/webpack.config.js --progress --watch",
     "serve": "browser-sync start -s www -f www -c",
-    "start": "npm-run-all --parallel watch serve",    
+    "start": "npm-run-all --parallel watch serve",
     "test": "jest"
   },
   "author": "Rocketmakers",
@@ -21,7 +21,8 @@
     "npm-run-all": "^4.1.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scroll": "^1.5.4"
+    "react-scroll": "^1.5.4",
+    "reveal.js": "^3.6.0"
   },
   "devDependencies": {
     "@types/enzyme": "^2.8.8",

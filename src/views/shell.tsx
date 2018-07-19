@@ -1,13 +1,18 @@
 import * as React from "react";
-import { IRouteComponentProps } from "../typings/app";
 
 import "./shell.scss";
 
-
-export function Shell() {
-  return (
-    <main className="shell">
-      <h1>Occupational Burnout</h1>
-    </main>
-  )
+export class Shell extends React.Component {
+  render() {
+    return (
+      <main className="shell">
+        <div className="reveal">
+          <div className="slides">
+            <section>Slide 1</section>
+            <section>Slide 2</section>
+          </div>
+        </div>
+      </main>
+    )
+  }
 }
